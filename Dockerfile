@@ -13,4 +13,6 @@ RUN apt-add-repository ppa:ansible/ansible
 RUN apt-get update
 RUN apt-get -y install ansible
 
+RUN git init
+RUN git clone https://github.com/Wowip/equipo2.git
 
